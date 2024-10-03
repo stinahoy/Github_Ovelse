@@ -1,14 +1,16 @@
+html {
+    font-size: 18px; /* Setter grunnstørrelsen på teksten til 18px for hele dokumentet */
+}
+
+* {
+    box-sizing: border-box; /* Inkluderer padding og border i elementets totale bredde og høyde */
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* Setter fontfamilien til Arial, med fallback til Helvetica og sans-serif */
 }
 
-h1 {
-    background-image: url(../sprites/mork_sno.jpg);
-    background-size: contain;
-    height: 500px;
-    max-width: 12000px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
+img {
+    width: 100%; /* Bildet tar opp 100% av containerens bredde */
+    max-width: 400px; /* Setter en maksimal bredde på 400px for bilder */
 }
-
